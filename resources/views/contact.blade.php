@@ -2,8 +2,7 @@
 
 
 @section('content')
-<h1>Inicio</h1>
+<h1>Contact</h1>
+
 @endsection
-
-
 
