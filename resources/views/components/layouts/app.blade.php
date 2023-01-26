@@ -8,9 +8,8 @@
     <meta name="description" content="{{$metaDescription ?? 'Default meta-description'}}" />
 </head>
 <body>
+    
    <x-layouts.nav />
-   
-
     {{ $slot }}
 </body>
 </html>
