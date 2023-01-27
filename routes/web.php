@@ -18,6 +18,8 @@ Route::get('/blog/{post}/edit',  [PostController::class, 'edit'])->name('posts.e
 
 Route::patch('/blog/{post}',[PostController::class, 'update'])->name('posts.update');
 
+Route::delete('/blog/{post}',[PostController::class, 'destroy'])->name('posts.destroy');
+
 Route::view('/about', 'about')->name('about');
 
 
