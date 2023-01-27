@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Card Manager - {{$title ?? ''}}</title>
     <meta name="description" content="{{$metaDescription ?? 'Default meta-description'}}" />
+    @vite(['resources/css/app.css'])
 </head>
 <body>
     

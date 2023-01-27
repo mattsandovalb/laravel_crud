@@ -14,7 +14,7 @@
         </label><br>
         <label for="">
             Body<br>
-            <textarea name="body" cols="30" rows="10">{{ old('body', $post->'body') }}</textarea>
+            <textarea name="body" cols="30" rows="10">{{ old('body', $post->body) }}</textarea>
             @error('body')
                 <br>
                 <small style="color:red">{{ $message }}</small>

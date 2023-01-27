@@ -21,9 +21,9 @@ class PostController extends Controller
         return view('posts.show', ['post' => $post]);
     }
 
-    public function create()
+    public function create(Post $post)
     {
-        return view('posts.create');
+        return view('posts.create',['post' => $post]);
     }
 
     public function store(Request $request)

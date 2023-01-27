@@ -22,6 +22,11 @@ Route::delete('/blog/{post}',[PostController::class, 'destroy'])->name('posts.de
 
 Route::view('/about', 'about')->name('about');
 
+Route::resource('blog', PostController::class, [
+    'names'=>'posts',
+    'parameters' => ['blog' => 'posts']
+]);
+
 
 
 
